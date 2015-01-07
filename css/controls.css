@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 10px;
+  	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+textarea {
+	font-size: 10px;
+	text-align: center;
+	border-style: none;
+}
+
+#export, #print {
+	width: 150px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	z-index: 1;
+}
+
+#export {
+	top: 10px;
+}
+
+#print {
+	top: 40px;
+}
+
+@media print {
+	#export, #print {
+		display: none;
+	}
+}
+
+.stick, .throttle {
+	position: relative;
+	width: 813px;
+	height: 1101px;
+}
+
+.stick {
+	background-image: url(../images/stick.png);
+}
+
+.throttle {
+	background-image: url(../images/throttle.png);
+}
+
+.label {
+	cursor: pointer;
+	position: absolute;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	text-shadow: 1px 1px #fff;
+}
+
+.stick .label {
+	width: 111px;
+	height: 34px;
+}
+
+.stick .label.short {
+	width: 105px;
+}
+
+.throttle .label {
+	width: 89px;
+	height: 26px;
+}
+
+.throttle .label.size1 {
+	width: 66px;
+	height: 20px;
+}
+
+.throttle .label.size2 {
+	width: 82px;
+	height: 23px;
+}
+
+.throttle .label.size3 {
+	width: 72px;
+	height: 23px;
+}
+
+.throttle .label.size4 {
+	width: 68px;
+	height: 23px;
+}
+
+.stick .label.Joy_1 { top: 866px; left: 358px; }
+.stick .label.Joy_2 { top: 166px; left: 132px; }
+.stick .label.Joy_3 { top: 929px; left: 667px; }
+.stick .label.Joy_4 { top: 988px; left: 650px; }
+.stick .label.Joy_5 { top: 275px; left: 607px; }
+.stick .label.Joy_6 { top: 931px; left: 382px; }
+.stick .label.Joy_7 { top: 246px; left: 116px; }
+.stick .label.Joy_8 { top: 297px; left: 204px; }
+.stick .label.Joy_9 { top: 350px; left: 116px; }
+.stick .label.Joy_10 { top: 297px; left: 26px; }
+.stick .label.Joy_11 { top: 361px; left: 587px; }
+.stick .label.Joy_12 { top: 412px; left: 675px; }
+.stick .label.Joy_13 { top: 465px; left: 587px; }
+.stick .label.Joy_14 { top: 412px; left: 497px; }
+.stick .label.Joy_15 { top: 518px; left: 116px; }
+.stick .label.Joy_16 { top: 569px; left: 206px; }
+.stick .label.Joy_17 { top: 622px; left: 36px; }
+.stick .label.Joy_18 { top: 569px; left: 26px; }
+.stick .label.Joy_19 { top: 627px; left: 157px; }
+.stick .label.Joy_POV1Up { top: 49px; left: 569px; }
+.stick .label.Joy_POV1Down { top: 195px; left: 569px; }
+.stick .label.Joy_POV1Left { top: 122px; left: 450px; }
+.stick .label.Joy_POV1Right { top: 122px; left: 684px; }
+
+.throttle .label.Joy_1 { top: 781px; left: 473px; }
+.throttle .label.Joy_2 { top: 849px; left: 137px; }
+.throttle .label.Joy_3 { top: 780px; left: 111px; }
+.throttle .label.Joy_4 { top: 812px; left: 168px; }
+.throttle .label.Joy_5 { top: 846px; left: 60px; }
+.throttle .label.Joy_6 { top: 812px; left: 53px; }
+.throttle .label.Joy_7 { top: 875px; left: 110px; }
+.throttle .label.Joy_8 { top: 898px; left: 110px; }
+.throttle .label.Joy_9 { top: 924px; left: 110px; }
+.throttle .label.Joy_10 { top: 947px; left: 110px; }
+.throttle .label.Joy_11 { top: 974px; left: 110px; }
+.throttle .label.Joy_12 { top: 997px; left: 110px; }
+.throttle .label.Joy_13 { top: 946px; left: 693px; }
+.throttle .label.Joy_14 { top: 977px; left: 693px; }
+.throttle .label.Joy_15 { top: 758px; left: 670px; }
+.throttle .label.Joy_16 { top: 31px; left: 321px; }
+.throttle .label.Joy_17 { top: 31px; left: 434px; }
+.throttle .label.Joy_18 { top: 201px; left: 666px; }
+.throttle .label.Joy_19 { top: 260px; left: 666px; }
+.throttle .label.Joy_20 { top: 293px; left: 613px; }
+.throttle .label.Joy_21 { top: 392px; left: 662px; }
+.throttle .label.Joy_22 { top: 366px; left: 99px; }
+.throttle .label.Joy_23 { top: 393px; left: 99px; }
+.throttle .label.Joy_24 { top: 517px; left: 82px; }
+.throttle .label.Joy_25 { top: 613px; left: 170px; }
+.throttle .label.Joy_26 { top: 612px; left: 514px; }
+.throttle .label.Joy_27 { top: 491px; left: 675px; }
+.throttle .label.Joy_28 { top: 517px; left: 675px; }
+.throttle .label.Joy_29 { top: 352px; left: 388px; }
+.throttle .label.Joy_30 { top: 352px; left: 280px; }
+.throttle .label.Joy_31 { top: 173px; left: 666px; }
+.throttle .label.Joy_32 { top: 231px; left: 666px; }
+.throttle .label.Joy_POV1Up { top: 655px; left: 271px; }
+.throttle .label.Joy_POV1Down { top: 765px; left: 271px; }
+.throttle .label.Joy_POV1Left { top: 710px; left: 185px; }
+.throttle .label.Joy_POV1Right { top: 710px; left: 359px; }
